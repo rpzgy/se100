@@ -1,0 +1,68 @@
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+header {
+    background-color: #93d0f4;
+    text-align: center;
+
+}
+h1 {
+    color: white;
+}
+table {
+    border-collapse: collapse;
+    width: 100%; /* Ensures full width */
+}
+
+table, th, td {
+    border: 1px solid #ddd; /* 1px solid border */
+    padding: 10px; /* Adds 10px padding for all cells */
+    text-align: left; /* Aligns text to the left */
+}
+
+
+a {
+    color: #0079c1; 
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
+
+footer {
+    background-color: #93d0f4; 
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+}
+
+
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #f8f8f8; 
+}
+
+table th {
+    background-color: #e6f7ff; 
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2; 
+}
+
+
+
